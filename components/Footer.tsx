@@ -2,7 +2,7 @@ import { FaEnvelope, FaGithub } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col items-center justify-center pt-10 pb-8 bg-white  ">
+    <footer className="w-full flex flex-col items-center justify-center pt-10 pb-8">
       <div className="flex justify-center gap-4 items-center pt-4 border-t-2 w-36">
         <a
           href="mailto:lyshine012@gmail.com"

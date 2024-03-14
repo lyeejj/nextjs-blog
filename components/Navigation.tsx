@@ -12,7 +12,7 @@ const Navigation = ({ type = "navbar", handleToggle }: INavProps) => {
       className={
         type === "navbar"
           ? "md:flex hidden items-center gap-4 font-extralight"
-          : "absolute top-12 left-0 w-screen flex flex-col gap-2 px-4 pt-2 pb-4 font-extralight rounded-b-xl bg-gray-100 md:hidden"
+          : "absolute top-12 left-0 w-screen flex flex-col gap-2 px-4 pt-2 pb-4 font-extralight rounded-b-xl bg-gray-100 md:hidden dark:text-black"
       }
     >
       {nav.map((item) => (
